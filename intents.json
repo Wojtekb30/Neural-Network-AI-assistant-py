@@ -1,0 +1,35 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["aHello", "aHi", "aHi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["aSee you later", "aHave a nice day", "aBye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["aHappy to help!", "aAny time!", "aMy pleasure", "aYou're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["aI'm IRIS, your bot assistant", "aI'm IRIS, an Artificial Intelligent bot"]
+    },
+    {"tag": "mood",
+     "patterns": ["How are you?", "How are you feeling?", "Are you fine?" ],
+     "responses": ["aI'm fine, thanks for asking", "aI'm fine"]
+    },
+    {"tag": "chrome",
+     "patterns": ["Open Google Chrome", "Run Google Chrome", "Open Internet" ],
+     "responses": ["0Opening Google Chrome"]
+    },
+    {"tag": "birdtech",
+     "patterns": ["Open our website", "Open my website", "Open website" ],
+     "responses": ["1Ok, opening birdtech.weebly.com"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["aYou can call me IRIS.", "aI'm IRIS!", "aJust call me as IRIS"]
+    }
+]
+}
